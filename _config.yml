@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "张海阅的个人主页"
-description              : "张海阅 - 计算机科学与技术 | 学术主页 "
+description              : "学术主页"
 repository               : "zhangHaiYue0/zhangHaiYue0.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "张海阅"
   avatar           : /images/avatar.jpg
-  bio              : "上海交通大学 计算机科学与技术 本科生"
+  bio              : "上海交通大学<br>计算机科学与技术<br>25级本科生"
   location         : "中国 上海"
   employer         :
   pubmed           : 
