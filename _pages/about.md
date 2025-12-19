@@ -5,32 +5,37 @@ permalink: /about/
 nav: true
 nav_order: 2
 ---
+
 <style>
-/* 只在个人简介页面隐藏头像 */
+/* 先前隐藏头像的代码（如果还有） */
 .avatar,
 .profile-image,
 .avatar img,
-img.avatar,
-.sidebar img,
-.col-sm-4 img {
+img.avatar {
   display: none !important;
   visibility: hidden !important;
 }
 
-/* 如果头像在特定的容器中 */
-.profile-sidebar img,
-.bio-avatar,
-.author-avatar {
+/* === 新添加的代码：隐藏左侧信息栏并调整布局 === */
+.col-sm-4 {
   display: none !important;
 }
+
+.col-sm-8 {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}
+/* === 新代码结束 === */
 </style>
 
+<!-- 页面原有的HTML内容从这里开始 -->
 <div class="row">
   <div class="col-sm-4">
-    <!-- 侧边栏，可能包含头像 -->
+    <!-- 这个左侧栏将被隐藏 -->
   </div>
   <div class="col-sm-8">
-    <!-- 主内容 -->
+    <!-- 这个主内容区将扩展为全宽 -->
   </div>
 </div>
 
