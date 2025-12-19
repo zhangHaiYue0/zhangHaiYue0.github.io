@@ -6,20 +6,6 @@ nav: true
 nav_order: 2
 ---
 
-<style>
-/* 隐藏整个侧边栏 */
-.col-sm-4 {
-  display: none !important;
-}
-
-/* 调整主内容区域宽度 */
-.col-sm-8 {
-  width: 100% !important;
-  max-width: 100% !important;
-  flex: 0 0 100% !important;
-}
-</style>
-
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
