@@ -1,11 +1,9 @@
 ---
-permalink: /
-title: ""
-excerpt: ""
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+layout: page
+title: 个人简介
+permalink: /about/
+nav: true
+nav_order: 2
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
