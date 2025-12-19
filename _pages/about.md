@@ -7,37 +7,29 @@ nav_order: 2
 ---
 
 <style>
-/* 先前隐藏头像的代码（如果还有） */
+/* 隐藏头像 */
 .avatar,
 .profile-image,
 .avatar img,
-img.avatar {
+img.avatar,
+.sidebar img,
+.col-sm-4 img {
   display: none !important;
   visibility: hidden !important;
 }
 
-/* === 新添加的代码：隐藏左侧信息栏并调整布局 === */
+/* 隐藏左侧个人信息栏（.col-sm-4），并调整右侧主内容区宽度 */
 .col-sm-4 {
   display: none !important;
 }
 
+/* 让右侧主内容区占据全部宽度 */
 .col-sm-8 {
   width: 100% !important;
   max-width: 100% !important;
   flex: 0 0 100% !important;
 }
-/* === 新代码结束 === */
 </style>
-
-<!-- 页面原有的HTML内容从这里开始 -->
-<div class="row">
-  <div class="col-sm-4">
-    <!-- 这个左侧栏将被隐藏 -->
-  </div>
-  <div class="col-sm-8">
-    <!-- 这个主内容区将扩展为全宽 -->
-  </div>
-</div>
 
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
