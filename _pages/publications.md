@@ -5,6 +5,18 @@ permalink: /publications/
 nav: true
 nav_order: 4
 ---
+
+<style>
+/* 只在发表论文页面隐藏个人头像图片 */
+.col-sm-4 img,
+.profile-image,
+.avatar,
+img[src*="avatar"] {
+  display: none !important;
+  visibility: hidden !important;
+}
+</style>
+
 # 发表论文
 
 ## 期刊论文
