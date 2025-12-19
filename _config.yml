@@ -162,15 +162,3 @@ compress_html:
   ignore:
     envs: development
 
-# ===================================
-# 导航栏配置
-# ===================================
-nav:
-  - title: Homepage
-    url: /
-  - title: 个人简介
-    url: /about/
-  - title: 获奖信息
-    url: /honors/
-  - title: 发表论文
-    url: /publications/
