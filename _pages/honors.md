@@ -5,6 +5,17 @@ permalink: /honors/
 nav: true
 nav_order: 3
 ---
+<style>
+/* 只在获奖信息页面隐藏个人头像图片 */
+.col-sm-4 img,
+.profile-image,
+.avatar,
+img[src*="avatar"] {
+  display: none !important;
+  visibility: hidden !important;
+}
+</style>
+
 # 荣誉与奖项
 
 ## 2025年
