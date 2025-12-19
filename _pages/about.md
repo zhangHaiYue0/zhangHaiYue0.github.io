@@ -5,6 +5,34 @@ permalink: /about/
 nav: true
 nav_order: 2
 ---
+<style>
+/* 只在个人简介页面隐藏头像 */
+.avatar,
+.profile-image,
+.avatar img,
+img.avatar,
+.sidebar img,
+.col-sm-4 img {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* 如果头像在特定的容器中 */
+.profile-sidebar img,
+.bio-avatar,
+.author-avatar {
+  display: none !important;
+}
+</style>
+
+<div class="row">
+  <div class="col-sm-4">
+    <!-- 侧边栏，可能包含头像 -->
+  </div>
+  <div class="col-sm-8">
+    <!-- 主内容 -->
+  </div>
+</div>
 
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
